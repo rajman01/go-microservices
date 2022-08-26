@@ -1,0 +1,6 @@
+# criteria for functions to work with RPC
+- functions must be a method
+- functions need to be exported
+- functions need to include two arguments both of which are exported types
+- second argument must be a pointer
+- return type must be an error type
